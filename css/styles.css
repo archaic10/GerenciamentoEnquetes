@@ -1,0 +1,101 @@
+h1{
+	text-align: center;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color:  rgb(5, 78, 112);
+}
+.column {
+	flex-direction: column;
+}
+body{
+	background: #8bb2ec;
+}
+.container {
+	max-width: 400px;
+	margin: 0 auto;
+	display: flex;
+	
+	text-align: center;
+}
+.btn-formulario{
+	border-style: outset;
+	color: rgb(37, 71, 107);
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	
+
+    height: 30px;
+	opacity: 0.5;
+}
+.btn-remove{
+	border-style: outset;
+	background:  #f54242;
+	
+	border-top: none;
+	border-right: none;
+	border-left: none;	
+    height: 30px;
+	opacity: 0.7;
+}
+.btn-remove:hover{
+    background: #bd2626;
+   color: white;
+   font-size: 150%;
+   font:bold;
+}
+.btn-formulario:hover{
+    background: rgb(43, 43, 43);
+   color: white;
+   font-size: 200%;
+   font:bold;
+}
+
+.item {
+	/* O flex: 1; é necessário para que cada item se expanda ocupando o tamanho máximo do container. */
+	flex: 1;
+	margin: 5px;
+	text-align: center;
+	font-size: 1.5em;
+}
+.menu {
+	max-width: 400px;
+	margin: 0 auto;
+	display: flex;
+	
+	text-align: left;
+}
+
+.item-menu {
+	/* O flex: 1; é necessário para que cada item se expanda ocupando o tamanho máximo do container. */
+	flex: 1;
+
+	margin: 5px;
+	
+	background:rgb(37, 71, 107);
+	text-align: center;
+	font-size: 1.5em;
+	opacity: 0.5;
+}
+.row {
+	flex-direction: row;
+}
+a,li,ul{
+	text-decoration: none;
+	color:  black;
+	list-style-type: none;
+	height:30px;
+	
+}
+
+.questao{
+	flex-direction: row;
+	text-align: right;
+	
+}
+.margem{
+	border: 3px solid rgb(5, 78, 112);
+}
+table, th, td {
+	border: 1px solid black;
+  }
+
